@@ -125,6 +125,7 @@ let Chicken = sprites.create(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
 Chicken.setPosition(36, 48)
+Chicken.say("C9")
 let Duck = sprites.create(img`
 . . . . . . . . . . b 5 b . . . 
 . . . . . . . . . b 5 b . . . . 
