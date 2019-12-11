@@ -124,7 +124,7 @@ let Chicken = sprites.create(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . c c c . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
-Chicken.setPosition(36, 48)
+Chicken.setPosition(18, 40)
 Chicken.say("C9")
 let Duck = sprites.create(img`
 . . . . . . . . . . b 5 b . . . 
@@ -144,7 +144,8 @@ c b b d 5 d c d 5 5 5 5 5 5 b .
 b b c c c d d d d 5 5 5 b b . . 
 . . . c c c c c c c c b b . . . 
 `, SpriteKind.Player)
-Duck.setPosition(53, 13)
+Duck.setPosition(64, 88)
+Duck.say("Pog")
 let Cherry = sprites.create(img`
 . . . . . . . . . . . 6 6 6 6 6 
 . . . . . . . . . 6 6 7 7 7 7 8 
@@ -163,4 +164,5 @@ c 2 e e 2 2 2 2 e 2 5 4 2 c 8 .
 . . . . . . . . c e 2 2 2 2 c . 
 . . . . . . . . . c c c c c . . 
 `, SpriteKind.Player)
-Cherry.setPosition(72, 11)
+Cherry.setPosition(70, 46)
+Cherry.say("Copystrike")
